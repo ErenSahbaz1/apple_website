@@ -1,7 +1,15 @@
 import React from "react";
-
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Highlights from "./components/Highlights";
 const App = () => {
-	return <div className="text-blue-500">App</div>;
+	return (
+		<main className="bg-black">
+			<Navbar />
+			<Hero />
+			<Highlights />
+		</main>
+	);
 };
 
 export default App;
